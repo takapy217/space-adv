@@ -1,0 +1,522 @@
+{
+  "intro_text": "あなたは新銀河連邦のパトロール隊員。静かな任務のはずが、思わぬ事件に巻き込まれることになる…。",
+  "chapters": {
+    "1": {
+      "image": { "type": "video", "file": "1-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+      "text": "銀河を巡回中、SOS信号をキャッチした。ここからそれほど遠くないエリアだ。",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":  { "type": "video", "file": "1-2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+            "text": "私は新銀河連邦の銀河パトロール隊員。\n日々の任務は、銀河の秩序を守るための警戒と巡回だ。",
+            "lp": 0,
+            "next": "2"
+          }
+        }
+      ]
+    },
+
+    "2": {
+      "image": { "type": "video", "file": "ch2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+      "text": "前方に巨大な貨物船。船体は損傷している。SOSの発信元のようだが連絡は通じない。どうやら中へ入るしかなさそうだ。",
+      "choices": [
+        {
+          "text": "乗り込む",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "2-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+            "text": "パトロール船を宇宙空間に待機させたまま、貨物船の破損箇所から内部へと侵入する。\n足を踏み入れた先は、どうやら格納庫のようだ。",
+            "lp": 0,
+            "next": "3"
+          }
+        }
+
+      ]
+    },
+    "3": {
+      "image": "10-1.png",
+      "text": "格納庫の横は医療室。ここの電源が止まっているようで扉は開かない。ただし、乗組員の気配は感じられない。",
+      "choices": [
+        {
+          "text": "移動する",
+          "correct": true,
+          "result": {
+            "result_image": "4.png",
+            "text": "貨物船のコックピット。計器は壊れかけ、照明も不安定だ。",
+            "lp": 0,
+            "next": "4"
+          }
+        }
+
+      ]
+    },
+    "4": {
+      "image": "4.png",
+      "text": "誰もいないのは不自然だ…。",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":{ "type": "video", "file": "4-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+            "text": "コックピットから移動しようとしたその時、モニター通信が作動した。",
+            "lp": 0,
+            "next": "5"
+          }
+        }
+
+      ]
+    },
+
+    "5": {
+      "image": { "type": "video", "file": "5-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+      "text": "攻撃的民族のゾーラ星人だ。どうやらこの宇宙船は彼らに占領されたらしい。乗組員を人質にして仲間の解放を要求してきた。",
+      "choices": [
+        {
+          "text": "断固拒否する",
+          "correct": true,
+          "result": {
+            "result_image":{ "type": "video", "file": "5-2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+            "text": "あなたの拒絶にゾーラ星人は激怒。　\n\nゾーラ星人「ならばお前に用はない！」",
+            "lp": 0,
+            "next": "6"
+          }
+        },
+        {
+          "text": "受け入れる",
+          "correct": false,
+          "result": {
+            "result_image": "5-5.png",
+            "text": "そんな選択肢はあり得ない。敵はほくそ笑むだけだ",
+            "lp": 0,
+            "next": "6"
+          }
+        },
+        {
+          "text": "考え込む",
+          "correct": false,
+          "result": {
+            "result_image": "5-5.png",
+            "text": "悠長に迷っている暇はない。相手は待ってくれない。",
+            "lp": 0,
+            "next": "6"
+          }
+        }
+      ]
+    },
+    "6": {
+      "image": { "type": "video", "file": "6-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+      "text": "ゾーラ星人は貨物船に時限爆弾を起動し、あなたのパトロール船も破壊して消え去った。残されたのは爆発までの90分…。",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "4.png",
+            "text": "絶望はしていられない。生き延びる手段を探すしかない。",
+            "lp": 0,
+            "next": "7"
+          }
+        }
+
+      ]
+    },
+
+
+    "7": {
+      "image": "4.png",
+      "text": "指令：90分以内に宇宙船から脱出せよ。時間はTimeで表示され、一つの行動に対して時間は減ります。０になったらゲームオーバーだ。\n\nさあ、どうする？",
+      "choices": [
+        {
+          "text": "通信機を調べる",
+          "correct": false,
+          "result": {
+            "result_image": "4.png",
+            "text": "電力は繋がっているが通信はできない。どうやらゾーラ星人によってプログラムが書き換えられているようだ。",
+            "lp": -5,
+            "next": "7"
+          }
+        },
+        {
+          "text": "操縦システムを調べる",
+          "correct": false,
+          "result": {
+            "result_image": "4.png",
+            "text": "動力システムが破壊されているので動かすことはできないようだ。",
+            "lp": -5,
+            "next": "7"
+          }
+        },
+        {
+          "text": "移動する",
+          "correct": true,
+          "result": {
+            "result_image": "4.png",
+            "text": "別の区画へ移動することにした。",
+            "lp": -5,
+            "next": "8"
+          }
+        }
+      ]
+    },
+    "8": {
+      "image":"8.png",
+      "text": "ここは艦長室のようだ。争った形跡だろうか、部屋が散らかっている。",
+      "choices": [
+        {
+          "text": "机上のパソコンにアクセスする",
+          "correct": false,
+          "result": {
+            "result_image": "8.png",
+            "text": "アクセスコードがわからない。記録にアクセスできるのは艦長だけのようだ。",
+            "lp": -5,
+            "next": "8"
+          }
+        },
+        {
+          "text": "机上のノートを調べる",
+          "correct": false,
+          "result": {
+            "result_image": "8.png",
+            "text": "「宇宙歴20XX年10月30日、惑星R2からの放射線が予定値より高く航路を変更する。次の輸送地で調整すれば日程は問題なさそうだ。\n\n宇宙歴20XX年12月10日、今日は私の52回目の誕生日を乗組員に祝ってもらった」\n\nどうやら艦長の日記のようだ。",
+            "lp": -5,
+            "next": "8"
+          }
+        },
+        {
+          "text": "移動する",
+          "correct": true,
+          "result": {
+            "result_image": "8.png",
+            "text": "別の区画へ移動することにした。",
+            "lp": -5,
+            "next": "9"
+          }
+        }
+      ]
+    },
+    "9": {
+      "image": "9.png",
+      "text": "居住区。放棄された生活の痕跡が残る。",
+      "choices": [
+        {
+          "text": "ベットを調べる",
+          "correct": false,
+          "result": {
+            "result_image":  "9.png",
+            "text": "メモ書きを発見した ”アメーバー型の生物は敵だ。迷わず撃退せよ”\n\nなんのことだろう。",
+            "lp": -5,
+            "next": "9"
+          }
+        },
+        {
+          "text": "ベットに横たわる",
+          "correct": false,
+          "result": {
+            "result_image": "9.png",
+            "text": "ちょっと体を休めるか…。　って思ったら寝ちゃった！！",
+            "lp": -10,
+            "next": "9"
+          }
+        },
+        {
+          "text": "移動する",
+          "correct": true,
+          "result": {
+            "result_image": "9.png",
+            "text": "別の区画へ移動することにした。",
+            "lp": -5,
+            "next": "10"
+          }
+        }
+      ]
+    },
+    "10": {
+      "image": "10-1.png",
+      "text": "医療室の前に到着したが、扉は閉ざされている。",
+      "choices": [
+        {
+          "text": "扉を調べる",
+          "correct": false,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "扉の横に「非常用脱出ボッド」との記載がある。医療室の中に入れば脱出できるかもしれない。",
+            "lp": -5,
+            "next": "10"
+          }
+        },
+        {
+          "text": "扉を力づくで開ける",
+          "correct": false,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "あなた「すぅぅぅぅーーーー。\n\nパワーーーー！！」\n\n開かない…",
+            "lp": -5,
+            "next": "10"
+          }
+        },
+        {
+          "text": "移動する",
+          "correct": true,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "別の区画へ移動することにした。",
+            "lp": -5,
+            "next": "11"
+          }
+        }
+      ]
+    },
+    "11": {
+      "image": "11.png",
+      "text": "機関室。動力は沈黙しているが、配電盤は生きているようだ。",
+      "choices": [
+        {
+          "text": "電力パネルを調べる",
+          "correct": true,
+          "result": {
+            "result_image": "11.png",
+            "text": "電力を管理するパネルを見つけた。",
+            "lp": -5,
+            "next": "12"
+          }
+        }
+
+      ]
+    },
+    "12": {
+      "image": "12.png",
+      "text": "電力を再配分できそうだ。正しい組み合わせを選べば医療室が開くはず。どの組み合わせを試す？",
+      "choices": [
+        {
+          "text": "「航行システム」と「照明システム」をOFF",
+          "correct": false,
+          "result": {
+            "result_image": "12.png",
+            "text": "照明システムをOFFにすると慣れない船内で迷いそうだ。これは止めておこう。",
+            "lp": -5,
+            "next": "12"
+          }
+        },
+
+        {
+          "text": "「航行システム」と「通信システム」をOFF",
+          "correct": true,
+          "result": {
+            "result_image": "12.png",
+            "text": "2つのシステムから電力を回すことに成功した。今なら医療室の扉は開くはずだ。",
+            "lp": -5,
+            "next": "13"
+          }
+        },
+        {
+          "text": "「武器システム」と「生命維持装置」をOFF",
+          "correct": false,
+          "result": {
+            "result_image": "12.png",
+            "text": "生命維持装置を失えば致命的だ。これは止めておこう。",
+            "lp": -5,
+            "next": "13"
+          }
+        }
+      ]
+    },
+    "13": {
+      "image": "13.png",
+      "text": "この通路の先に医療室がある。",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":  { "type": "video", "file": "14-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "謎の生命体と遭遇。",
+            "lp": -5,
+            "next": "14"
+          }
+        }
+
+      ]
+    },
+    "14": {
+      "image":  "14-2.png",
+      "text": "どうする？",
+      "choices": [
+        {
+          "text": "話しかけてみる",
+          "correct": false,
+          "result": {
+            "result_image": "14-2.png",
+            "text": "身振り手振りを交えて話しかけたが、言葉が通じないようだ",
+            "lp": -5,
+            "next": "14"
+          }
+        },
+        {
+          "text": "逃げる",
+          "correct": false,
+          "result": {
+            "result_image": "14-2.png",
+            "text": "ここを通らないと医療室には行けない。逃げることはできない。",
+            "lp": -5,
+            "next": "14"
+          }
+        },
+        {
+          "text": "レーザービームで戦う",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "14-3.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "どうやら戦うしかなさそうだ。レーザーの出力を上げて発射した",
+            "lp": -5,
+            "next": "15"
+          }
+        }
+      ]
+    },
+
+
+    "15": {
+      "image": { "type": "video", "file": "15-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+      "text": "謎の生命体の動きが止まった。再生を始めているが、しばらくは攻撃されることはなさそうだ。医療室に急ごう。",
+      "choices": [
+        {
+          "text": "医療室に向かう",
+          "correct": true,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "医療室に到着した。中に入ろう",
+            "lp": -5,
+            "next": "16"
+          }
+        }
+
+
+
+      ]
+    },
+
+
+    "16": {
+      "image": "16.png",
+      "text": "医療室に入った。まずは医療用のホログラムロボットを起動させよう。",
+      "choices": [
+        {
+          "text": "ホログラム起動",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "16-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "ロボット「医療用ロボットNo.25Rです。何を手伝いましょうか」",
+            "lp": -5,
+            "next": "17"
+          }
+        }
+
+      ]
+    },
+    "17": {
+      "image": "17.png",
+      "text": "医療用ロボットに命令してください",
+      "choices": [
+        {
+          "text": "脱出用ポッドを起動してもらう",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "17-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "承知しました。脱出用ポッドを起動させるには艦長コードが必要です。4桁の数字をお願いします。",
+            "lp": -5,
+            "next": "18"
+          }
+        },
+        {
+          "text": "治療してもらう",
+          "correct": false,
+          "result": {
+            "result_image": "17.png",
+            "text": "最近腰が痛くって…　って呑気に治療している場合じゃないよ！",
+            "lp": -5,
+            "next": "17"
+          }
+        },
+        {
+          "text": "現在の状況を説明する",
+          "correct": false,
+          "result": {
+            "result_image": "17.png",
+            "text": "状況は理解しました。それでは、私は何をしましょうか？",
+            "lp": -5,
+            "next": "17"
+          }
+        }
+      ]
+    },
+
+
+    "18": {
+      "image": "18.png",
+      "text": "艦長コードを選択してください",
+      "choices": [
+
+        {
+          "text": "0217",
+          "correct": false,
+          "result": {
+            "result_image": "18.png",
+            "text": "あなた「0217！」\n\nどうやらコードが違うようだ。",
+            "lp": -5,
+            "next": "18"
+          }
+        },
+        {
+          "text": "1210",
+          "correct": true,
+          "result": {
+            "result_image": "18.png",
+            "text": "艦長コード承認。ロボット「脱出用ポッドを起動します」",
+            "lp": 0,
+            "next": "19"
+          }
+        },
+        {
+          "text": "3368",
+          "correct": false,
+          "result": {
+            "result_image": "18.png",
+            "text": "あなた「3368！」\n\nどうやらコードが違うようだ。",
+            "lp": -5,
+            "next": "18"
+          }
+        }
+
+      ]
+    },
+
+    "19": {
+      "image": { "type": "video", "file": "19-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+      "text": "貨物船からポッドが射出される。脱出に成功した！",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "19-2.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "背後で巨大な爆発が広がった。危機一髪だった",
+            "lp": 0,
+            "next": "20"
+          }
+        }
+
+      ]
+    },
+    "20": {
+      "image": "20.png",
+      "text": "救助信号は連邦に届いた。あなたは生還し、ゾーラ星人の陰謀も阻止された。後日、乗組員全員の無事が確認された。",
+
+      "button_label_c": "▶終わり / END",
+      "choices": []
+
+    }
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "intro_text": "You are a patrol officer of the New Galactic Federation. What was supposed to be a routine mission soon turns into an unexpected incident…",
+  "chapters": {
+    "1": {
+      "image": { "type": "video", "file": "1-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+        "text": "While patrolling the galaxy, you catch an SOS signal. It’s not far from here.",
+
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":  { "type": "video", "file": "1-2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+              "text": "I am a patrol officer of the New Galactic Federation. My daily duty is to safeguard order in the galaxy.",
+
+            "lp": 0,
+            "next": "2"
+          }
+        }
+      ]
+    },
+
+    "2": {
+      "image": { "type": "video", "file": "ch2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+            "text": "A massive cargo ship looms ahead. The hull is damaged. It seems to be the source of the SOS, but no contact can be made. The only choice is to enter.",
+      "choices": [
+        {
+          "text": "Board the ship",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "2-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+             "text": "Leaving your patrol ship on standby outside, you enter the cargo ship through a breach in its hull. The area you step into appears to be a hangar.",
+
+            "lp": 0,
+            "next": "3"
+          }
+        }
+
+      ]
+    },
+    "3": {
+      "image": "10-1.png",
+       "text": "Beside the hangar is the medical bay, but the power is down and the door won’t open. There’s no sign of the crew.",
+
+      "choices": [
+        {
+          "text": "Move on",
+
+          "correct": true,
+          "result": {
+             "result_image": "4.png",
+            "text": "The cargo ship’s cockpit. The instruments are failing and the lights flicker weakly.",
+
+            "lp": 0,
+            "next": "4"
+          }
+        }
+
+      ]
+    },
+    "4": {
+      "image": "4.png",
+       "text": "It’s strange… no one is here.",
+
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":{ "type": "video", "file": "4-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+             "text": "Just as you prepare to leave the cockpit, a monitor suddenly flickers to life.",
+            "lp": 0,
+            "next": "5"
+          }
+        }
+
+      ]
+    },
+
+    "5": {
+      "image": { "type": "video", "file": "5-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+      "text": "Zora aliens—an aggressive race. It appears they’ve taken over the ship, holding the crew hostage and demanding the release of their comrades.",
+      "choices": [
+        {
+          "text": "Refuse firmly",
+          "correct": true,
+          "result": {
+            "result_image":{ "type": "video", "file": "5-2.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+             "text": "Your refusal enrages the Zora alien.\n\nZora: “Then you are of no use to us!”",
+
+            "lp": 0,
+            "next": "6"
+          }
+        },
+        {
+          "text": "Accept",
+          "correct": false,
+          "result": {
+            "result_image": "5-5.png",
+            "text": "That choice is impossible. The enemy only sneers.",
+            "lp": 0,
+            "next": "6"
+          }
+        },
+        {
+           "text": "Hesitate",
+          "correct": false,
+          "result": {
+            "result_image": "5-5.png",
+            "text": "There’s no time to hesitate. The enemy won’t wait.",
+            "lp": 0,
+            "next": "6"
+          }
+        }
+      ]
+    },
+    "6": {
+      "image": { "type": "video", "file": "6-1.mp4", "autoplay": true, "muted": true, "loop": false, "controls": false },
+        "text": "The Zora alien arms a time bomb in the cargo ship and destroys your patrol ship. Only 90 minutes remain until detonation…",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": "4.png",
+             "text": "There’s no time for despair. You must find a way to survive.",
+            "lp": 0,
+            "next": "7"
+          }
+        }
+
+      ]
+    },
+
+
+    "7": {
+      "image": "4.png",
+      "text": "Directive: Escape within 90 minutes. Time is shown on screen. Every action costs minutes. If it reaches zero, it’s game over. What will you do?",
+      "choices": [
+        {
+          "text": "Check the communicator",
+
+          "correct": false,
+          "result": {
+            "result_image": "4.png",
+            "text": "Power flows to it, but communication is blocked. The Zora aliens seem to have rewritten its program.",
+            "lp": -5,
+            "next": "7"
+          }
+        },
+        {
+          "text": "Inspect the controls",
+
+          "correct": false,
+          "result": {
+            "result_image": "4.png",
+            "text": "The propulsion system is destroyed. The ship cannot move.",
+
+            "lp": -5,
+            "next": "7"
+          }
+        },
+        {
+          "text": "Move on",
+
+          "correct": true,
+          "result": {
+            "result_image": "4.png",
+             "text": "You decide to head to another section.",
+
+            "lp": -5,
+            "next": "8"
+          }
+        }
+      ]
+    },
+    "8": {
+      "image":"8.png",
+      "text": "This looks like the captain’s quarters. Signs of a struggle—everything is in disarray.",
+      "choices": [
+        {
+           "text": "Access the computer on the desk",
+
+          "correct": false,
+          "result": {
+            "result_image": "8.png",
+            "text": "You don’t know the access code. It seems only the captain can open these records.",
+
+            "lp": -5,
+            "next": "8"
+          }
+        },
+        {
+          "text": "Check the notebook on the desk",
+          "correct": false,
+          "result": {
+            "result_image": "8.png",
+            "text": "\"Stardate 20XX-10-30: Radiation from planet R2 exceeded projections. Changing course. With adjustments at the next stop, the schedule should be fine.\n\nStardate 20XX-12-10: The crew celebrated my 52nd birthday today.\"\n\nLooks like the captain’s diary.",
+
+            "lp": -5,
+            "next": "8"
+          }
+        },
+        {
+           "text": "Move on",
+
+          "correct": true,
+          "result": {
+            "result_image": "8.png",
+            "text": "You decide to head to another section.",
+            "lp": -5,
+            "next": "9"
+          }
+        }
+      ]
+    },
+    "9": {
+      "image": "9.png",
+      "text": "Crew quarters. Traces of a hurried evacuation remain.",
+
+      "choices": [
+        {
+          "text": "Inspect the beds",
+
+          "correct": false,
+          "result": {
+            "result_image":  "9.png",
+             "text": "You find a note: \"Amoeboid creatures are hostile. Repel without hesitation.\" \n\nWhat was that about?",
+            "lp": -5,
+            "next": "9"
+          }
+        },
+        {
+          "text": "Lie down on a bed",
+          "correct": false,
+          "result": {
+            "result_image": "9.png",
+            "text": "Maybe a short rest… and you doze off!!",
+            "lp": -10,
+            "next": "9"
+          }
+        },
+        {
+          "text": "Move on",
+
+          "correct": true,
+          "result": {
+            "result_image": "9.png",
+            "text": "You decide to head to another section.",
+
+            "lp": -5,
+            "next": "10"
+          }
+        }
+      ]
+    },
+    "10": {
+      "image": "10-1.png",
+      "text": "You arrive at the medical bay, but the door is sealed.",
+      "choices": [
+        {
+           "text": "Examine the door",
+
+          "correct": false,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "A label beside the door reads: \"Emergency Escape Pod.\" If you can enter the medical bay, you might escape.",
+            "lp": -5,
+            "next": "10"
+          }
+        },
+        {
+          "text": "Force the door open",
+          "correct": false,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "You: \"Suuuuuuuu… POWEEEEEER!!\"\n\n…It doesn’t budge.",
+            "lp": -5,
+            "next": "10"
+          }
+        },
+        {
+           "text": "Move on",
+          "correct": true,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "You decide to head to another section.",
+            "lp": -5,
+            "next": "11"
+          }
+        }
+      ]
+    },
+    "11": {
+      "image": "11.png",
+      "text": "Engine room. The main drive is silent, but the distribution panel seems alive.",
+      "choices": [
+        {
+          "text": "Check the power panel",
+          "correct": true,
+          "result": {
+            "result_image": "11.png",
+            "text": "You’ve found the power management panel.",
+
+            "lp": -5,
+            "next": "12"
+          }
+        }
+
+      ]
+    },
+    "12": {
+      "image": "12.png",
+      "text": "You may be able to reroute power. With the right combination, the medical bay should unlock. Which will you try?",
+      "choices": [
+        {
+          "text": "Turn OFF \"Navigation\" and \"Communications\"",
+          "correct": false,
+          "result": {
+            "result_image": "12.png",
+             "text": "Turn OFF \"Weapons\" and \"Life Support\"",
+
+            "lp": -5,
+            "next": "12"
+          }
+        },
+
+        {
+           "text": "Turn OFF \"Navigation\" and \"Communications\"",
+          "correct": true,
+          "result": {
+            "result_image": "12.png",
+              "text": "Success—you’ve freed enough power from two systems. The medical bay door should open now.",
+            "lp": -5,
+            "next": "13"
+          }
+        },
+        {
+          "text": "Turn OFF \"Weapons\" and \"Life Support\"",
+          "correct": false,
+          "result": {
+            "result_image": "12.png",
+            "text": "Losing life support would be fatal. Not an option.",
+            "lp": -5,
+            "next": "13"
+          }
+        }
+      ]
+    },
+    "13": {
+      "image": "13.png",
+      "text": "The corridor ahead leads to the medical bay.",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image":  { "type": "video", "file": "14-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "You encounter a mysterious lifeform.",
+            "lp": -5,
+            "next": "14"
+          }
+        }
+
+      ]
+    },
+    "14": {
+      "image":  "14-2.png",
+       "text": "What will you do?",
+      "choices": [
+        {
+           "text": "Try talking to it",
+          "correct": false,
+          "result": {
+            "result_image": "14-2.png",
+            "text": "You gesture and speak, but it doesn’t understand a word.",
+            "lp": -5,
+            "next": "14"
+          }
+        },
+        {
+          "text": "Run away",
+          "correct": false,
+          "result": {
+            "result_image": "14-2.png",
+            "text": "You can’t reach the medical bay without passing here. Retreat isn’t an option.",
+            "lp": -5,
+            "next": "14"
+          }
+        },
+        {
+          "text": "Fight with a laser beam",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "14-3.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "Looks like there’s no choice. You ramp up the laser output and fire.",
+            "lp": -5,
+            "next": "15"
+          }
+        }
+      ]
+    },
+
+
+    "15": {
+      "image": { "type": "video", "file": "15-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+       "text": "The creature stops moving. It seems to be regenerating and won’t attack for a while. Hurry to the medical bay.",
+      "choices": [
+        {
+          "text": "Head to the medical bay",
+          "correct": true,
+          "result": {
+            "result_image": "10-1.png",
+            "text": "You arrive at the medical bay. Time to go inside.",
+            "lp": -5,
+            "next": "16"
+          }
+        }
+
+
+
+      ]
+    },
+
+
+    "16": {
+      "image": "16.png",
+      "text": "You enter the medical bay. First, activate the medical hologram robot.",
+      "choices": [
+        {
+          "text": "Activate the hologram",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "16-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "Robot: \"Medical unit No.25R online. How may I assist you?\"",
+            "lp": -5,
+            "next": "17"
+          }
+        }
+
+      ]
+    },
+    "17": {
+      "image": "17.png",
+      "text": "Give the medical robot an instruction.",
+      "choices": [
+        {
+           "text": "Start the escape pod",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "17-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+             "text": "Acknowledged. To activate the escape pod, the captain’s code is required. Please provide a 4-digit number.",
+            "lp": -5,
+            "next": "18"
+          }
+        },
+        {
+          "text": "Treat me",
+          "correct": false,
+          "result": {
+            "result_image": "17.png",
+             "text": "My back’s been sore lately… Wait, this is no time for treatment!",
+            "lp": -5,
+            "next": "17"
+          }
+        },
+        {
+           "text": "Explain the current situation",
+          "correct": false,
+          "result": {
+            "result_image": "17.png",
+             "text": "Understood. Then, what would you like me to do?",
+            "lp": -5,
+            "next": "17"
+          }
+        }
+      ]
+    },
+
+
+    "18": {
+      "image": "18.png",
+      "text": "Select the captain’s code.",
+      "choices": [
+
+        {
+          "text": "0217",
+          "correct": false,
+          "result": {
+            "result_image": "18.png",
+            "text": "You: \"0217!\"\n\nThat doesn’t seem to be the code.",
+            "lp": -5,
+            "next": "18"
+          }
+        },
+        {
+          "text": "1210",
+          "correct": true,
+          "result": {
+            "result_image": "18.png",
+            "text": "Captain’s code accepted. Robot: \"Activating the escape pod.\"",
+            "lp": 0,
+            "next": "19"
+          }
+        },
+        {
+          "text": "3368",
+          "correct": false,
+          "result": {
+            "result_image": "18.png",
+             "text": "You: \"3368!\"\n\nThat doesn’t seem to be the code.",
+            "lp": -5,
+            "next": "18"
+          }
+        }
+
+      ]
+    },
+
+    "19": {
+      "image": { "type": "video", "file": "19-1.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+      "text": "The pod ejects from the cargo ship. You’ve made it out!",
+      "choices": [
+        {
+          "text": "▶次へ/Next",
+          "correct": true,
+          "result": {
+            "result_image": { "type": "video", "file": "19-2.mp4", "autoplay": true, "muted": true, "loop": false,"controls": false },
+            "text": "A massive explosion blossoms behind you. That was way too close.",
+            "lp": 0,
+            "next": "20"
+          }
+        }
+
+      ]
+    },
+    "20": {
+      "image": "20.png",
+      "text": "Your distress signal reaches the Federation. You survive, and the Zora plot is foiled. Later, all crew members are confirmed safe.",
+      "button_label_c": "▶終わり / END",
+      "choices": []
+
+    }
+  }
+}
